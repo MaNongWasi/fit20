@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  UserEntity.h
 //  fit20
 //
 //  Created by MuBingjie on 16/5/20.
@@ -7,9 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "EncoderViewController.h"
 
-@interface ViewController : UIViewController
+@interface UserEntity : UIViewController
 
+
+@property (nonatomic) float qs;
 
 @end
-
